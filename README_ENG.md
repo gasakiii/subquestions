@@ -44,11 +44,11 @@ When you run the command, you will see an image with the specified text area sur
 +--------------------------------------------------
 | image 1 / 30, number of text regions 1 / 3
 +--------------------------------------------------
-| 5 points : all readable without problems
-| 4 points: Generally readable, but some text is difficult to read.
-| 3 points: Some of the text is unreadable.
-| 2 points: Most of the text is unreadable.
-| 1 point : Not readable at all
+| 5 : all readable without problems
+| 4 : Generally readable, but some text is difficult to read.
+| 3 : Some of the text is unreadable.
+| 2 : Most of the text is unreadable.
+| 1 : Not readable at all
 +--------------------------------------------------
 Put your score >> 
 ````
