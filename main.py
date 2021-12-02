@@ -66,7 +66,7 @@ if __name__ == "__main__":
                         print('| 2点 ： 大半が読めない')
                         print('| 1点 ： 全く読めない')
                         print("+--------------------------------------------------")        
-                        val = input("{} / 93 :Put your score >> ".format(count))
+                        val = input("Put your score >> ")
                         try:
                             if int(val)>=1 and int(val)<= 5:
                                 with open(res_name, 'a') as f:
