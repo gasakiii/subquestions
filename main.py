@@ -26,6 +26,9 @@ if __name__ == "__main__":
     img_dir = 'original_imgs'
     txt_dir = 'region'
     res_name = 'result_'+str(qid)+'.txt'
+    
+    if os.path.exists(res_name):
+        os.remove(res_name)
 
     with open(res_name, 'a') as f:
         f.write(str(qid) + '\n')
