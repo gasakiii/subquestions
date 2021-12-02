@@ -42,7 +42,7 @@ $ pip install -r requirements.txt
 When you are ready, you can start your evaluation experiment by running the following command
 
 ```
-$ python main.py
+$ python main_ENG.py
 ```
 
 When you run it, you will see an image and the following text on your terminal.
