@@ -12,15 +12,8 @@ I know you are busy, but I would appreciate it if you could help me.
 There are 30 images in total, and 93 text areas. It should take about 10 minutes to complete.
 
 ## Repository contents
-By copying this repository, you can use python to display images.
+By copying this repository, you can use python to display the image and enter the score on the terminal.
 
-You will be asked to answer the evaluation values using a google form.
-
-We recommend that you use your phone or tablet to answer the questions using the google form, while viewing and evaluating the images on your PC.
-
-↓Click here for the answer form↓.
-
-URL
 
 ## Preparing the programme
 It is recommended to run the image display locally. The program runs in python3.
@@ -38,11 +31,42 @@ $ cd subquestions
 $ pip install -r requirements.txt
 ```
 
-## 画像表示方法
-When you are ready, you can start your evaluation experiment by running the following command
+## Experimental procedure
+When you are ready, you can start the evaluation experiment by running the following command
 
 ```
 $ python main_ENG.py
 ```
 
-When you run it, you will see an image and the following text on your terminal.
+When you run the command, you will see an image with the specified text area surrounded by a red frame, and the following text on the terminal.
+
+```
++--------------------------------------------------
+| image 1 / 30, number of text regions 1 / 3
++--------------------------------------------------
+| 5 points : all readable without problems
+| 4 points: Generally readable, but some text is difficult to read.
+| 3 points: Some of the text is unreadable.
+| 2 points: Most of the text is unreadable.
+| 1 point : Not readable at all
++--------------------------------------------------
+Put your score >> 
+````
+
+```
+image 1 / 30, number of text regions 1 / 3
+```
+
+The image is the current number of images, and the number of text regions is the current number of text regions in the image.
+
+The number of text regions represents the number of text regions in the current image. Enter a score for each text region surrounded by a red frame, according to the given score.
+
+Enter a score from 1-5 and press Enter to move on to the next text region or image.
+
+
+## How to submit
+
+Once you have answered all the questions for all the images, a file "result_{id}.txt" will be generated in the directory.
+
+Send this to the following link
+
