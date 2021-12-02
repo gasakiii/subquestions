@@ -26,10 +26,19 @@ English version here: [README_ENG](/README_ENG.md)
 $ git clone https://github.com/gasakiii/subquestions.git
 ```
 
-次に、コピーしたディレクトリ（subquestions）に移動して、以下のコマンドで必要なパッケージをインストールしてください。（不要な場合はスキップ）
+次に、コピーしたディレクトリ（subquestions）に移動して、環境構築を行います。
 
 ```
 $ cd subquestions
+```
+
+minicondaの場合、以下のコマンドで新しい環境を構築し、必要なパッケージ（numpy, matplotlib, pillow, opencv)をインストールしてください。
+
+必要なパッケージを持つ環境が既にある場合は、スキップしても大丈夫です。
+
+```
+$ conda create --name gasakiii python==3.7
+$ conda activate gasakiii
 $ pip install -r requirements.txt
 ```
 
@@ -71,4 +80,15 @@ imageは現在の画像数を表していて、number of text regionは現在の
 全ての画像について回答すると、ディレクトリ内に、"result_{id}.txt"が生成されます。
 
 これを以下のリンクに送信してください。
+
+
+## オプション：作成した環境を削除する
+
+今回作成した環境を削除した場合は、以下のコマンドを実行することで削除することができます。
+
+
+```
+$ conda deactivate gasakiii
+$ conda remove -n gasakiii --all
+```
 
