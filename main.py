@@ -5,7 +5,6 @@ from PIL import Image, ImageDraw
 import cv2
 import matplotlib.pyplot as plt
 
-
 textSSIMs = [95, 90, 85]
 imgnums = [1,2,4,6,15,17,20,27,28,32]
 count = 0
@@ -67,7 +66,7 @@ if __name__ == "__main__":
                         try:
                             if int(val)>=1 and int(val)<= 5:
                                 with open(res_name, 'a') as f:
-                                    f.write(val + '\n')
+                                    f.write(imgname + ' ' + str(z+1) + ' ' + val + '\n')
                                 break
                             else:
                                 print('****** Please Input score 1~5 *******')
