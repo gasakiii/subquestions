@@ -27,8 +27,8 @@ if __name__ == "__main__":
         print("ID must be 1 - %d"%(max_id))
         exit()
 
-    img_dir = "imgs"
-    txt_dir = "region"
+    img_dir = 'original_imgs'
+    txt_dir = 'region'
     res_name = 'result_'+str(qid)+'.txt'
 
     with open(res_name, 'a') as f:
@@ -68,13 +68,18 @@ if __name__ == "__main__":
                         print('| 1点 ： 全く読めない')
                         print("+--------------------------------------------------")        
                         val = input("{} / 93 :Put your score >> ".format(count))
-                        if int(val)>=1 and int(val)<= 5:
-                            with open(res_name, 'a') as f:
-                                f.write(val + '\n')
-                            break
-                        else:
+                        try:
+                            if int(val)>=1 and int(val)<= 5:
+                                with open(res_name, 'a') as f:
+                                    f.write(val + '\n')
+                                break
+                            else:
+                                print('****** Please Input score 1~5 *******')
+                                continue
+                        except:
                             print('****** Please Input score 1~5 *******')
                             continue
+
 
                     plt.close()
 
