@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 textSSIMs = [95, 90, 85]
 imgnums = [1,2,4,6,15,17,20,27,28,32]
 count = 0
+imgcount = 0
 
 if __name__ == "__main__":
     args = sys.argv
@@ -32,6 +33,7 @@ if __name__ == "__main__":
     for textSSIM in textSSIMs:
         for imgnum in imgnums:
             imgname = str(textSSIM) + '_' + str(imgnum) + '.png'
+            imgcount += 1
             if os.path.exists(os.path.join(img_dir, imgname)):
 
                 txtname = 'res_img_'+str(imgnum)+'.txt'
@@ -55,6 +57,8 @@ if __name__ == "__main__":
                     plt.pause(0.01)
 
                     while True:
+                        print("+--------------------------------------------------")        
+                        print("| image  {} / 30, number of text region {} / {}".format(imgcount, z+1, len(lines)))
                         print("+--------------------------------------------------")        
                         print('| 5点 ： 全て問題なく読める')
                         print('| 4点 ： 概ね読めるが、一部読みづらい文字がある')
