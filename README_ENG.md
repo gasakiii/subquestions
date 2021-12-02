@@ -1,37 +1,37 @@
-# 画像の文字領域についての主観評価実験
-## 目的
-現在，画像はスマートフォンやSNSの普及などにより広く通信に用いられています．
-一方で，画像は容量が大きいため，通信に利用する場合は圧縮しなければなりません．
-画像を圧縮する場合，画像内で重要であると考えられる文字領域を高品質に保つ必要があります．
-しかし，文字の可読性に関しては客観評価だけでは不十分であると考えられます．
+# Subjective evaluation experiment on the text area of an image
+## Purpose
+Nowadays, images are widely used for communication due to the spread of smart phones and social networking services.
+However, due to their large size, images must be compressed before they can be used for communication.
+When compressing images, it is necessary to maintain high quality in the text area, which is considered to be the most important part of the image.
+However, objective evaluation is not sufficient to determine the readability of text.
 
-そこで，画像内の文字領域の品質に関する主観評価をお願いしたいと思います．
+Therefore, we would like to ask you to make a subjective evaluation of the quality of text areas in an image.
 
-お忙しいところではあると思いますが，よろしくお願いします．
+I know you are busy, but I would appreciate it if you could help me.
 
-画像は全部で30枚、文字領域は93個あります． 10分程度で終わるものとなっているのでよろしくお願いします．
+There are 30 images in total, and 93 text areas. It should take about 10 minutes to complete.
 
-## リポジトリ内容
-こちらのリポジトリをコピーすることで、pythonを利用して画像を表示することができます。
+## Repository contents
+By copying this repository, you can use python to display images.
 
-評価値はgoogle formを用いて回答していただきます。
+You will be asked to answer the evaluation values using a google form.
 
-スマホやタブレットでgoogle formでの回答をしつつ、PCで画像を表示して評価することを推奨します。
+We recommend that you use your phone or tablet to answer the questions using the google form, while viewing and evaluating the images on your PC.
 
-↓回答Formはこちらです↓
+↓Click here for the answer form↓.
 
 URL
 
-## プログラムの準備
-画像表示はローカルでの実行を推奨します。プログラムはpython3で動きます。
+## Preparing the programme
+It is recommended to run the image display locally. The program runs in python3.
 
-まず、以下のコマンドを実行することでこのリポジトリをローカルに入れることができます。
+First, you can put this repository locally by running the following command
 
 ```
 $ git clone https://github.com/gasakiii/subquestions.git
 ```
 
-次に、コピーしたディレクトリ（subquestions）に移動して、以下のコマンドで必要なパッケージをインストールしてください。（不要な場合はスキップ）
+Next, go to the directory you copied (subquestions) and install the necessary packages with the following commands. (Skip if you don't need them)
 
 ```
 $ cd subquestions
@@ -39,10 +39,10 @@ $ pip install -r requirements.txt
 ```
 
 ## 画像表示方法
-準備ができたら、以下のコマンドを実行して評価実験を開始することができます。
+When you are ready, you can start your evaluation experiment by running the following command
 
 ```
 $ python main.py
 ```
 
-実行すると、画像と、terminal上に以下の文字が表示されます。
+When you run it, you will see an image and the following text on your terminal.
