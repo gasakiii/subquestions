@@ -6,10 +6,6 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-# imgpath = '/Users/uchiga/Documents/220114/image/Shukan/'
-# txtpath = '/Users/uchiga/Desktop/testimage/1true/'
-# savepath = '/Users/uchiga/Documents/220114/image/Shukan2/'
-
 textSSIMs = [95, 90, 85]
 imgnums = [1,2,4,6,15,17,20,27,28,32]
 count = 0
@@ -79,7 +75,6 @@ if __name__ == "__main__":
                         except:
                             print('****** Please Input score 1~5 *******')
                             continue
-
 
                     plt.close()
 
