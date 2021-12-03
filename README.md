@@ -51,6 +51,8 @@ $ python main.py {id}
 
 実行すると、指定の文字領域が赤枠で囲まれた画像と、terminal上に以下の文字が表示されます。
 
+![temp](https://github.com/gasakiii/subquestions/blob/main/temp_img/85_1_1.png "サンプル")
+
 ```
 +--------------------------------------------------
 | image  1 / 30, number of text region 1 / 3
