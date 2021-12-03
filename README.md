@@ -94,3 +94,7 @@ $ conda deactivate gasakiii
 $ conda remove -n gasakiii --all
 ```
 
+deactivateできない場合は、一度terminalを再起動してから環境を削除してください。
+
+よろしくお願いいたします。
+
