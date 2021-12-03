@@ -40,6 +40,10 @@ $ python main_ENG.py {id}
 
 When you run the command, you will see an image with the specified text area surrounded by a red frame, and the following text on the terminal.
 
+<p align="center">
+  <img width="240" height="320" src="https://github.com/gasakiii/subquestions/blob/main/temp_img/85_1_1.png">
+</p>
+
 ```
 +--------------------------------------------------
 | image 1 / 30, number of text regions 1 / 3
@@ -71,4 +75,6 @@ Once you have answered all the questions for all the images, a file "result_{id}
 Send this to the following link
 
 https://www.dropbox.com/request/MQjqFRoDhzmkvg3zbL7u
+
+Thank you very much for your cooperation!
 
