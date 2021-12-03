@@ -35,7 +35,7 @@ $ pip install -r requirements.txt
 When you are ready, you can start the evaluation experiment by running the following command
 
 ```
-$ python main_ENG.py
+$ python main_ENG.py {id}
 ```
 
 When you run the command, you will see an image with the specified text area surrounded by a red frame, and the following text on the terminal.
