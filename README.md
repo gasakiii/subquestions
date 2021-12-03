@@ -81,6 +81,8 @@ imageは現在の画像数を表していて、number of text regionは現在の
 
 これを以下のリンクに送信してください。
 
+https://www.dropbox.com/request/MQjqFRoDhzmkvg3zbL7u
+
 
 ## オプション：作成した環境を削除する
 
