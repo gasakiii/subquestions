@@ -88,6 +88,8 @@ imageは現在の画像数を表していて、number of text regionは現在の
 
 https://www.dropbox.com/request/MQjqFRoDhzmkvg3zbL7u
 
+提出していただいてアンケートは終了となります！ご協力ありがとうございました！
+
 
 ## オプション：作成した環境を削除する
 
