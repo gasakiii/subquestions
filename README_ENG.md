@@ -70,3 +70,5 @@ Once you have answered all the questions for all the images, a file "result_{id}
 
 Send this to the following link
 
+https://www.dropbox.com/request/MQjqFRoDhzmkvg3zbL7u
+
